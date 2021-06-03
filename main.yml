@@ -5,7 +5,6 @@
 ##
 ## Taken from https://www.youtube.com/watch?v=qlJh9l1DyI4 by Phil Bladen 05-20-2021
 - hosts: localhost
-  ansible_connection: local
   tasks:
     - name: Provision an EC2 Instance
       ec2:
